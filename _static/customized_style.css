@@ -1,0 +1,53 @@
+#bd-toc-nav{
+	background-color: #ebebeb !important;
+}
+#body{
+	background-color: #ebebeb !important;
+}
+#banner{
+	background-color: #ebebeb;
+}
+
+.footer>div.container{
+	margin-left: 0 !important;
+}
+
+.footer.container{
+	max-width: 100% !important;
+	margin-left: 0 !important;
+}
+
+.container-xl{
+	background-color: #ebebeb;
+	margin: 0;
+	max-width: 100% !important;
+}
+
+a:hover{
+	color: #FF0077 !important;
+}
+:root {
+	--pst-color-link: #FF0077;
+	--pst-color-sidebar-link: #FF0077;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {
+    margin: 0 -5px;
+}
+
+
+#site-navigation{
+	background-color: #ebebeb;
+}
+.bd-content{
+	background-color: #FFFFFF;
+}
+
+#main-content{
+	background-color: #FFFFFF;
+	padding-left: inherit;
+}
+
+
+
