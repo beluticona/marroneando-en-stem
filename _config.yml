@@ -1,9 +1,9 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: A time capsule...
+title:
 author: Belu Ticona
-copyright: "2023"
+copyright: "2024"
 logo: new-logo.png
 
 # Force re-execution of notebooks on each build.
@@ -30,4 +30,8 @@ repository:
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
 html:
   use_issues_button: false
-  use_repository_button: true
+  use_repository_button: false
+
+sphinx:
+  html_context:
+    default_mode: light
