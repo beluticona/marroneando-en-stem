@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Index</title>
+    <title>Aplicación a PhD en el exterior</title>
     
   <link href="_static/css/theme.css" rel="stylesheet">
   <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
@@ -43,7 +43,14 @@
     <script src="_static/copybutton.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
-    <link rel="index" title="Index" href="#" />
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script>
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
@@ -125,6 +132,23 @@
             </button>
             
             
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/aplicacion-posgrado.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
             <!-- Source interaction buttons -->
 
             <!-- Full screen (wrap in <a> to have style consistency -->
@@ -149,13 +173,51 @@
         
               <div>
                 
-
-<h1 id="index">Index</h1>
-
-<div class="genindex-jumpbox">
- 
+  <div class="section" id="aplicacion-a-phd-en-el-exterior">
+<h1>Aplicación a PhD en el exterior<a class="headerlink" href="#aplicacion-a-phd-en-el-exterior" title="Permalink to this headline">¶</a></h1>
+<p>Hace un año decidí aplicar al doctorado en el exterior, descubriendo en este camino un montón de barreras que impactan principalmente a 1era generación de universitaries, familias migrantes, entre otros. 🎓 💰 ❌</p>
+<p>Quería compartir un par de recursos que me ayudaron muchísimo por si alguien, por distintos motivos personales, considera la opción en el exterior.</p>
+<p>Quiero aclarar que no quiero alentar a nadie a dejar de apostar hacer ciencia en su país. La investigación en Argentina (y Sudamérica) es de excelente nivel, aunque a veces existan cierta limitaciones económicas. Poder desde el exterior investigar problemáticas locales me parece muy importante, más aún habiéndome formado en la escuela pública.</p>
+<p>👩‍🏫 <strong>Programas de Mentorías</strong>
+Suelen incluir ayuda económica para pagar el IELTS/TOELF, feedback de cartas, ensayos, CVs, etc.</p>
+<ul class="simple">
+<li><p>Científico Latino <a class="reference external" href="https://lnkd.in/d6g5vVdC">https://lnkd.in/d6g5vVdC</a> (Jun)</p></li>
+<li><p>Women in Machine Learning <a class="reference external" href="https://lnkd.in/dDXZts9X">https://lnkd.in/dDXZts9X</a> (Ago/Sep)</p></li>
+<li><p>Queer In AI <a class="reference external" href="https://lnkd.in/dZ3S5m7U">https://lnkd.in/dZ3S5m7U</a> (Sep-Oct)</p></li>
+<li><p>Black in AI <a class="reference external" href="https://lnkd.in/dVYN4six">https://lnkd.in/dVYN4six</a> (Sep/Oct)</p></li>
+<li><p>Latinx in AI (LXAI) <a class="reference external" href="https://lnkd.in/dbwZEcuZ">https://lnkd.in/dbwZEcuZ</a></p></li>
+</ul>
+<p>🌎 <strong>𝘈𝘱𝘭𝘪𝘤𝘢𝘳 𝘥𝘦𝘴𝘥𝘦 𝘓𝘢𝘵𝘪𝘯𝘰𝘢𝘮é𝘳𝘪𝘤𝘢</strong></p>
+<ul class="simple">
+<li><p>CSR Workshop 2024 <a class="reference external" href="https://lnkd.in/dxCpxRF8">https://lnkd.in/dxCpxRF8</a> (las slides de Jeffri Murrugarra y Ariana Villegas son BUENÍSIMAS)</p></li>
+<li><p>Sugerencias de Diego Kozlowski <a class="reference external" href="https://lnkd.in/dUepWUDA">https://lnkd.in/dUepWUDA</a> (tiene muy buenos tips que no vi en ningún otro lado).</p></li>
+</ul>
+<p>💻 <strong>𝘊𝘰𝘭𝘦𝘤𝘤𝘪ó𝘯 𝘥𝘦 𝘳𝘦𝘤𝘶𝘳𝘴𝘰𝘴</strong> (para doctorados en computación) hashtag#csphd</p>
+<p><a class="reference external" href="https://lnkd.in/dmB22uiV">https://lnkd.in/dmB22uiV</a></p>
+<p>Por último, sé que el nivel de inglés (sobretodo el oral) suele desalentar a muchas personas. Armar comunidad y conectar con otras personas ayuda mucho a perder el miedo. En TechnoLatinas, por ejemplo, se realizan clubes conversacionales de inglés.</p>
+<p>Ojalá algo de todo esto le pueda sirver a alguien más. Es mi humilde grano de arena para intentar diversificar el ámbito académico :)</p>
+<p>#gradschool hashtag#phd hashtag#gradstudent hashtag#posgrado hashtag#becas</p>
 </div>
 
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
 
               </div>
               

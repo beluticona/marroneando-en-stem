@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Index</title>
+    <title>Letter to a life mentor</title>
     
   <link href="_static/css/theme.css" rel="stylesheet">
   <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
@@ -43,7 +43,14 @@
     <script src="_static/copybutton.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
-    <link rel="index" title="Index" href="#" />
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script>
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
@@ -125,6 +132,23 @@
             </button>
             
             
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/Letter to a life mentor.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
             <!-- Source interaction buttons -->
 
             <!-- Full screen (wrap in <a> to have style consistency -->
@@ -141,6 +165,24 @@
         <!-- Table of contents -->
         <div class="d-none d-md-block col-md-2 bd-toc show">
             
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#context">
+   Context
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#letter-to-meli">
+   Letter to Meli
+  </a>
+ </li>
+</ul>
+
+            </nav>
         </div>
     </div>
 </div>
@@ -149,13 +191,43 @@
         
               <div>
                 
-
-<h1 id="index">Index</h1>
-
-<div class="genindex-jumpbox">
- 
+  <div class="tex2jax_ignore mathjax_ignore section" id="letter-to-a-life-mentor">
+<h1>Letter to a life mentor<a class="headerlink" href="#letter-to-a-life-mentor" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="context">
+<h2>Context<a class="headerlink" href="#context" title="Permalink to this headline">¶</a></h2>
+<p>This letter was written after a summer science camp at West Virginia in 2014. Back in Buenos Aires I felt like nobody here could understand what that trip meant to me. I’d say it definitively shaped my perception of life, first time I started wondering about the purpose of being alive.</p>
+<p>Before this experience I’ve never had thought about this kinda deep feelings, I haven’t questioned myself why I wanna keep on living. It was more like becoming awareness that I was living life “passively”, without any reason or motivation. Just living…now I can see the beauty of that but in those years I was too young to see it. Anyway, here is my letter to  my dear Meli as an attempt for feeling comprehended.</p>
+</div>
+<div class="section" id="letter-to-meli">
+<h2>Letter to Meli<a class="headerlink" href="#letter-to-meli" title="Permalink to this headline">¶</a></h2>
+<p>Hi Meli!</p>
+<p>How is my sweet Mexican friend? Surely too busy and full of ideas and activities. If my calculations are correct, this letter should be arriving by Christmas or New Year’s Eve. Hope it is so.</p>
+<p>How many great things have happened! It’s been six months since the camp. Half year, wow it looks so far away and at the same time so close.</p>
+<p>I still remember when I read your little letter in the plane…you made me tear up. Mel, I read your words with your voice in my head. When arrived at home, everything was so hard and emotional. I wanted to share what I had lived and learned with others (that’s what I’ve being trying to since then). Sometimes it gets hard, especially when you see other’s face without understanding your emotion and joy. The other day we were chatting with Dani and we agreed when we said how crazy we came back.</p>
+<p>You know what? Before camp, I should better say, before everything else, even before getting into science Olympiads and all these nerd stuff, I had no idea where I was getting into and where I’d ended up. I believe in destiny and that things happens for a reason.</p>
+<p>When I used to look at other kids being part of science Olympiads, winning prizes and medals, I wanted to be like them. Wanted to be break my routine and do “grat” new things. The more awards I won, the more I wondered: “so this is how they feel like”. It wasn’t the medal what it made that experience so beautiful, it was the trip and getting to know people. Those conversations.</p>
+</div>
 </div>
 
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
 
               </div>
               

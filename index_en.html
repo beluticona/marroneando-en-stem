@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Index</title>
+    <title>My dear Caja de Pandora</title>
     
   <link href="_static/css/theme.css" rel="stylesheet">
   <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
@@ -43,7 +43,14 @@
     <script src="_static/copybutton.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
-    <link rel="index" title="Index" href="#" />
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script>
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
@@ -125,6 +132,23 @@
             </button>
             
             
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/index_en.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
             <!-- Source interaction buttons -->
 
             <!-- Full screen (wrap in <a> to have style consistency -->
@@ -141,6 +165,24 @@
         <!-- Table of contents -->
         <div class="d-none d-md-block col-md-2 bd-toc show">
             
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#about-this-book">
+   About this book
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#about-myself">
+   About myself
+  </a>
+ </li>
+</ul>
+
+            </nav>
         </div>
     </div>
 </div>
@@ -149,13 +191,41 @@
         
               <div>
                 
-
-<h1 id="index">Index</h1>
-
-<div class="genindex-jumpbox">
- 
+  <div class="tex2jax_ignore mathjax_ignore section" id="my-dear-caja-de-pandora">
+<h1>My dear Caja de Pandora<a class="headerlink" href="#my-dear-caja-de-pandora" title="Permalink to this headline">¶</a></h1>
+<p>It’s been a while since I realized one day I’d publish a book. Not sure if one day I will publish something for real but, for the moment, let’s start collecting all my personal writings.</p>
+<div class="section" id="about-this-book">
+<h2>About this book<a class="headerlink" href="#about-this-book" title="Permalink to this headline">¶</a></h2>
+<p>Over my years in school, I realized writing helps me understand my feelings and thoughts, even on those long gray days when everything looks a bit fuzzy and desolated. Writing is the way I get to know myself better.</p>
+<p>Reading my own words years after helps me rediscover myself even more. What type of person I used to be? Which were my motivations in life? Looking back in life feels weird, like having a coffee with a younger self. Sometimes I meet a young teenager, full of dreams, innocent and too desperate to grown and achieve her goals. It even frighten me the idea of disappointing her (I guess this tells you a lot about me, huh?). Sometimes I’m not sure if I’m ready to meet her back…other times I’m delighted to see how enthusiastic she is, recharging my energies to concrete my current goals. There’re also moments when I can’t help letting her know about the amazing moments that’re to come, and ask her not to look forward the future that much but to embrace her present.</p>
+<p>This book is dedicated to my future self. So you can continue growing and achieving whatever you propose. So you can remember who you used to be and decide better where you wanna go.</p>
+<p>This book is also for anyone who enjoy having deep conversations. These writings does not reflect who I’m most of the time, but I does show what I think on those moments of personal inflection.</p>
+</div>
+<div class="section" id="about-myself">
+<h2>About myself<a class="headerlink" href="#about-myself" title="Permalink to this headline">¶</a></h2>
+<p>Let’s say its the end of the world, if everything gets deleted, all your information, all your social media…everything, except for a short description, who would you say you were? In my case, I’d say I was an Argentinian-Bolivian woman, Quechua-Aymara descendant, brown and nerd, enthusiastic, passionate and a little bit dramatic (just a little, for sure). Someone who aimed to live happily. That would be everything you need to know :)</p>
+</div>
 </div>
 
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
 
               </div>
               

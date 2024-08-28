@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Index</title>
+    <title>Mi aplicación al doctorado</title>
     
   <link href="_static/css/theme.css" rel="stylesheet">
   <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
@@ -43,8 +43,16 @@
     <script src="_static/copybutton.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
-    <link rel="index" title="Index" href="#" />
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script>
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Caja de Pandora: Introducción" href="index.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -86,9 +94,9 @@
   </a>
  </li>
 </ul>
-<ul class="nav bd-sidenav">
- <li class="toctree-l1">
-  <a class="reference internal" href="mi-paquete-aplicacion.html">
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
    Mi aplicación al doctorado
   </a>
  </li>
@@ -125,6 +133,23 @@
             </button>
             
             
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/mi-paquete-aplicacion.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
             <!-- Source interaction buttons -->
 
             <!-- Full screen (wrap in <a> to have style consistency -->
@@ -149,19 +174,57 @@
         
               <div>
                 
-
-<h1 id="index">Index</h1>
-
-<div class="genindex-jumpbox">
- 
+  <div class="tex2jax_ignore mathjax_ignore section" id="mi-aplicacion-al-doctorado">
+<h1>Mi aplicación al doctorado<a class="headerlink" href="#mi-aplicacion-al-doctorado" title="Permalink to this headline">¶</a></h1>
+<p>Quería compartir mi paquete de aplicación por si le ayuda a alguien a preparar sus documentos.</p>
+<p>Antes que nada, comento un poco sobre el contexto de estos documentos finales:</p>
+<ul class="simple">
+<li><p>SoP: este doc es el resultado de 2 meses de trabajo de investigación (“stalkeo”) sobre perfiles académicos con quienes me interesaba trabajar. Encontrar un buen research-fit es clave. Solo comparto mi SoP para GMU porque en donde terminé aceptando oferta, pero noten que solo el final lo personalicé para cada escuela (y los nombres del primer párrafo + algún detalle menor).</p></li>
+<li><p>CV: tras una sesión de mentoría, me recomendaron hacer el CV en Latex y fue un gran consejo que recomiendo seguir. Realmente me es MUCHO más fácil actualizar el CV ahora que tengo <em>flags</em> para saber si lo quiero en modo <em>académico</em> o <em>industria</em>, o si lo quiero corto en modo <em>single-page-resume</em> o si lo quiero en <em>full-long-CV</em>.</p></li>
+<li><p>Cartas: subo solo una versión anonimizada de mi carta de recomendación, le quité fragmentos NO menores donde comentan cómo me conocieron y qué colaboraciones en concreto hemos tenido (dar detalles es muy importante, las partes que censuré no son para nada genéricas). Estoy dejando una sección que tranquilamente podría aparecer en cualquiera de mis cartas de recomendación.</p></li>
+</ul>
+<p>Documentos:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://drive.google.com/file/d/1u5YBJe1jab137Q5GT9TmAdPt4_g-0qW0/view?usp=sharing">CV</a></p></li>
+<li><p><a class="reference external" href="https://drive.google.com/file/d/1xrfT17Cq2gkOsZY8rp6McE6wlgJKT88H/view?usp=sharing">Statement of Purpose</a></p></li>
+<li><p><a class="reference external" href="https://drive.google.com/file/d/15N2RGE8PVqZXIME1gpCrkNreCvBRXaek/view?usp=sharing">Recommendation Letter</a></p></li>
+</ul>
+<p>Muchas veces piden además un Diversity Statement. En este caso no lo pedían y traté de dejar entrever lo que hubiera puesto ahí en una de las cartas de recomendación (si realmente conocen a sus recomendadores, le pueden pedir que incluya esto..por lo general les profes quieren que les estudiantes le hagan la vida fácil y les comparta el CV/SoP/cualquier cosa que les ayude a escribir la carta).</p>
+<p>Si quien te hace la carta te pide que la hagas vos, buscá muy bien cómo dar detalles concretos porque una carta genérica no ayuda. Es muy importante que le expliques esto a tus recomendadores si acceden a hacerte la carta.</p>
 </div>
 
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
 
               </div>
               
         
             <!-- Previous / next buttons -->
-<div class='prev-next-area'>
+<div class='prev-next-area'> 
+    <a class='left-prev' id="prev-link" href="index.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Caja de Pandora: Introducción</p>
+        </div>
+    </a>
 </div>
         
         </div>
