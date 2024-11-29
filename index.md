@@ -1,4 +1,4 @@
-# Caja de Pandora: Introducción
+# Introducción
 
 ```{admonition} Importante
 :class: important
