@@ -7,6 +7,10 @@ parts:
     chapters:
       - file: doctorado/aplicacion-posgrado
       - file: doctorado/mi-paquete-aplicacion
+  - caption: Identidad
+    chapters:
+      - file: identidad/identidad
+      - file: identidad/mi-apellido-paterno
   - caption: Universidad
     chapters:
       - file: universidad/exactas-elitista
