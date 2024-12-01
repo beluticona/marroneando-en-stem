@@ -22,7 +22,7 @@ bibtex_bibfiles:
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/beluticona/my-time-capsule  # Online location of your book
+  url: https://github.com/beluticona/marroneando-en-stem  # Online location of your book
   path_to_book: .  # Optional path to your book, relative to the repository root
   branch: main  # Which branch of the repository should be used when creating links (optional)
 
@@ -35,3 +35,9 @@ html:
 sphinx:
   html_context:
     default_mode: light
+
+parse:
+  myst_enable_extensions:
+    # don't forget to list any other extensions you want enabled,
+    # including those that are enabled by default! See here: https://jupyterbook.org/en/stable/customize/config.html
+    - html_image

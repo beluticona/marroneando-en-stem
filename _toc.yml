@@ -2,6 +2,25 @@
 
 format: jb-book
 root: index
-chapters:
-  - file: aplicacion-posgrado
-  - file: mi-paquete-aplicacion
+parts:
+  - caption: Doctorado
+    chapters:
+      - file: doctorado/aplicacion-posgrado
+      - file: doctorado/mi-paquete-aplicacion
+  - caption: Universidad
+    chapters:
+      - file: universidad/exactas-elitista
+      - file: universidad/paciencia-dicen
+  - caption: Secundaria
+    chapters:
+      - file: secundaria/arte-y-ciencia
+      - file: secundaria/estare-esperando
+      - file: secundaria/no-cuesta-nada
+      - file: secundaria/post-OAQ
+      - file: secundaria/democracia-plaza
+      - file: secundaria/olimpiadas-vocacion
+  - caption: Pandemia
+    chapters:
+      - file: pandemia/el-regreso
+      - file: pandemia/cursar-virtual-Exactas
+      - file: pandemia/lejos

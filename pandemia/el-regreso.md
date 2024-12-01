@@ -1,0 +1,8 @@
+# El pre-regreso
+
+Hoy tuve una llamada con mi mamá y mi hermana. Me hicieron recordar el estado del mundo, lo surreal que todo parece, las protestas, las marchas, el peligro...me hicieron recordar que estoy viviendo en una muy bella burbuja, aislada del viento que la eleva. Falta cada vez menos para que esta burbuja se desvanezca y sea solos unas gotitas sueltas al merced del aire. 
+
+No sabía cómo me sentía hoy...fue raro. No podía describirlo, bajé a almorzar con la cabeza ida...mi hermana y mamá me mostraban cómo está la casa, nuestra cocina, mis cosas, mi cama...de repente me acordé de todo. Pude volverme a ver allí, en mi día a día, en mis desayunos, en nuestras cenas, mis ollas, mis platos, nuestra pequeña mesa redonda, mi cama de una plaza, mi mini almohada...Mamá me decía “Qué pasa si te avisan de un vuelo en 5 días? Qué vas a hacer sin valija? Tenés que estar lista así te volvés apenas haya vuelo , o no?” Y yp no sabía con qué cara mirarla...le decía “Ajam, sí.”
+Me contó de gente que conocía que falleció, una enfermera en particular, de otros casos que escuchaba. Al contarme ella eso, de cómo se cuidaba para ir a cada lugar del sanatorio, tomé un poco de consciencia de que es su salud la que está en riesgo...mientras que yo acá tranquila tratando de planificar mi retorno...como si se pudiera realmente planear. Irresponsable, así me sentí. No mucho pero sí un poco. No me entiendo me dije, hace unos días lloraba por extrañarles y ahora me entristece pensar que me voy a ir.
+
+El mundo está muy caótico, mi vida de regreso va a ser tan...nueva, con dolor, rutina nueva, preocupaciones nuevas, recuerdos nuevos, deseos nuevos, temores nuevos...sí creo que la Belu que vuelva a casa es muy distinta a la que se fue.

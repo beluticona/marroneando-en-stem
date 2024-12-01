@@ -1,0 +1,5 @@
+# Volver a clases...lejos
+
+Una bella sensación rara de volver a clases. Siempre amé comenzar clases, de hecho siempre traté de cursar en verano cuando podía. Pero esta vez es particularmente rara. Naturalmente la modalidad virtual será nueva para todes, mas una sensación peculiar, una sonrisa se me viene al entrar al campus virtual de Exactas UBA. Como si de alguna forma...de alguna extraña forma pudiera sentirme en casa, como si de alguna extraña forma no me sintiese sola, lejos de casa. Como si pudiera sentir los pasillos de Exactas, como si pudiera sentir las preocupaciones de siempre y disfrutarlas.
+
+Por momentos extraño tanto mi hogar, por otros no sé dónde es mi hogar. Por momentos odio todo lo que vivo y me pregunto por qué, ¿por qué? Y por otros momentos amo lo que vivo y no cambiaría nada de todo lo que he pasado ni sentido. De lo que no dudo en lo absoluto es que estoy aprendiendo de la vida como jamás antes había aprendido, que estoy creciendo como antes no había imaginado y que este viaje me ha llevado por caminos inesperados pero bellos, muy muy bellos
