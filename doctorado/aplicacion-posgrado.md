@@ -17,13 +17,13 @@ Suelen incluir ayuda económica para pagar el IELTS/TOELF, feedback de cartas, e
 
 🌎 **Aplicar desde Latinoamérica**
 
-- CSR Workshop 2024 https://lnkd.in/dxCpxRF8 (las slides de Jeffri Murrugarra y Ariana Villegas son BUENÍSIMAS)
+- [CSR Workshop 2024](https://latinresearchprogram.github.io/GoogleExploreCSR/workshop/) (las slides de Jeffri Murrugarra y Ariana Villegas son BUENÍSIMAS)
 
-- Sugerencias de Diego Kozlowski https://lnkd.in/dUepWUDA (tiene muy buenos tips que no vi en ningún otro lado).
+- Sugerencias de [Diego Kozlowski](https://sites.google.com/view/diego-kozlowski/home/sugerencias-para-aplicar-a-un-phd) (tiene muy buenos tips que no vi en ningún otro lado).
 
 💻 **Colección de recursos** (para doctorados en computación) hashtag #csphd
 
-- Awesome PhD Advice https://github.com/pliang279/awesome-phd-advice
+- [Awesome PhD Advice](https://github.com/pliang279/awesome-phd-advice)
   
 Por último, sé que el nivel de inglés (sobretodo el oral) suele desalentar a muchas personas. Armar comunidad y conectar con otras personas ayuda mucho a perder el miedo. En [TechnoLatinas](https://technolatinas.org), por ejemplo, se realizan clubes conversacionales de inglés.
 

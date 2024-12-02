@@ -1,4 +1,6 @@
-# Saber ver la pasión en uno mismo y en el otro. 
+# ¿Por qué organizar Olimpíadas de Ciencias?
+
+Saber ver la pasión en uno mismo y en el otro. 
 
 Ese, es el secreto.
 

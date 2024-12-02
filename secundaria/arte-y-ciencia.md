@@ -1,4 +1,6 @@
-# ¿Qué es del arte en la ciencia? ¿Qué es de la ciencia en el arte?
+# Arte y Ciencia
+
+¿Qué es del arte en la ciencia? ¿Qué es de la ciencia en el arte?
 
 Lo que comenzó como una linda experiencia en laboratorio, como una posibilidad de aprender jugando a preparar cosas raras, soluciones de llamativos colores y piedras de múltiples tamaños y formas, terminó en la construcción de un puente entre dos cosas generalmente concebidas como de mundos ajenos. 
 

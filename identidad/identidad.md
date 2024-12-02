@@ -7,6 +7,6 @@ Quienes se han adaptado a esta sociedad contemporánea, han tenido que migrar, d
 
 Tristemente mis abueles han quedado desplazades de este mundo moderno. Su memoria y cultura solo queda en el recuerdo de les hijes y nietes. Queda en nuestras manos asumir nuestra identidad indígena y hacerla viva en una versión contemporánea.
 
-Así que arrancamos repensando esta cuenta como una ventana para mostrar esta identidad. Mi primer paso de reindigenización es hacerlo público y compartir un poco lo que queda de esta cosmovisión. Las fotos son de Machupichu, donde comencé a encontrarme a mí misma. #identidad #hoysoybelu la que puede ver con claridad #indigena #aymara Decidí aprender #quechua
+Así que arrancamos repensando mi identidad digital como una ventana para mostrar esta identidad que solía ocultar. Mi primer paso de reindigenización es hacerlo público y compartir un poco lo que queda de esta cosmovisión. Las fotos son de Machupichu, donde comencé a encontrarme a mí misma. #identidad #hoysoybelu la que puede ver con claridad #indigena #aymara Decidí aprender #quechua
 
 **Por Enero del 2023, tras reflexionar sobre qué quiero hacer con mi vida adulta**  

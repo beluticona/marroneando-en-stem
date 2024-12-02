@@ -11,6 +11,7 @@ parts:
     chapters:
       - file: identidad/identidad
       - file: identidad/mi-apellido-paterno
+      - file: identidad/frases
   - caption: Universidad
     chapters:
       - file: universidad/exactas-elitista
